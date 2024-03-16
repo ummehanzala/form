@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+<style>
+.subtable{
+    border: 4px solid white;
+}
+.main
+{
+    border: 5px solid white;
+    background-image: url(image/background.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+   color: white;
+}
+</style>
+</head>
+<body>
+    <div class="main" >
+    <form action="http://www.example.com/subscribe.php"  method="get"><table width="850" > 
+        &nbsp
+        &nbsp;
+        &nbsp;
+    <label for="fname">
+        <tr>
+       <td>    <label for="fname">FIRST NAME</td>
+        <td><input type="text" name="first"
+          id="fname" maxlength="30" > (max 30 characters a-z and A-Z)</td> 
+        </label> </tr>
+ 
+        <br>
+        <br>   
+        &nbsp
+        &nbsp;
+        &nbsp;
+            <tr>
+        <td><label for="lname"> LAST NAME</td>
+          <td>  <input type="text" id="lname" maxlength="30"> (max 30 characters a-z and A-Z)  </td>
+        </label> </tr>
+               
+        <br>
+        <br>   
+        &nbsp
+        &nbsp;
+        &nbsp;
+        <tr>
+    <td><label for="D">
+            DATE OF BIRTH
+        </td>
+        <td>   
+        <Select name="Day" id="D">
+            <option value="day" disabled  selected>Day</option>
+            <option value="Monday">Monday</option>
+            <option value="tuesday">Tuesday</option>
+            <option value="wednesday">Wednesday</option>
+            <option value="thrusday">Thrusday</option>
+            <option value="friday">Friday</option>
+            <option value="saturday">Saturday</option>
+            <option value="sundday">Sunday</option></Select>
+            <select name="month" id="D">
+                <option value="month" disabled  selected>Month</option>
+                <option value="january">january</option>
+                <option value="february">february</option>
+                <option value="march">march</option>
+                <option value="april">April</option>
+            <option value="may">May</option>
+            <option value="june">June</option>
+            <option value="july">July</option>
+            <option value="august">August</option>
+            <option value="september">September</option>
+            <option value="october">October</option>
+            <option value="november">November</option>
+            <option value="december">December</option>
+        </select>
+        <select name="year" id="D">
+            <option value="year" disabled  selected>Year</option>
+            <option value="1991">1991</option>
+            <option value="1992">1992</option>
+            <option value="1993">1993</option>
+            <option value="1994">1994</option>
+            <option value="1995">1995</option>
+            <option value="1996">1996</option>
+            <option value="1997">1997</option>
+            <option value="1998">1998</option>
+            <option value="1999">1999</option>
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+            <option value="2004">2004</option>
+            <option value="2005">2005</option>
+            <option value="2006">2006</option>
+            <option value="2007">2007</option>
+            <option value="2008">2008</option>
+            <option value="2009">2009</option>
+            <option value="2010">2010</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+             <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+        </select></label>
+        </td>
+    </tr> 
+
+    <tr>
+
+   <td><label for="e">EMAIL ID</td>
+<td>
+    <input type="email" id="e"></label>
+</td>
+</tr>
+<tr>
+    <td>
+        <label for="n">
+            MOBILE NUMBER
+    </td>
+<td>
+    <input type="text" id="n" maxlength="10"> (ten digit number)
+</td>
+
+</label>
+</tr>
+<tr><td>
+GENDER</td>
+<td><label for="m">
+    <input type="radio" name="gender" id="m" value="male"> Male</label>
+   <label for="f">
+    <input type="radio"  name="gender" id="f" value="female"> Female</label>
+</td>
+
+</tr> 
+
+<tr>
+    <td><label for="A">ADDRESS</td>
+        <td> <textarea name="comments" id="A" cols="30" rows="4"></textarea></td>
+</label></tr>
+
+
+<tr>
+    <td><label for="C"> CITY</td>
+      <td>  <input type="text" id="C" maxlength="30"> (max 30 characters a-z and A-Z)  </td>
+    </label> </tr>  
+
+    <tr>
+        <td><label for="p"> PIN CODE</td>
+          <td>  <input type="text" id="p" maxlength="6"> (6 digit number)  </td>
+        </label> </tr>
+
+        <tr>
+            <td><label for="co"> COUNTRY</td>
+              <td>  <input type="text" id="co" > </td>
+            </label> </tr>
+<tr>
+    <td>
+        HOBBIESS
+    </td>
+    <td>
+       <label for="Drawing">Drawing <input type="checkbox" id="Drawing" name="hobbies"></label>
+   
+       <label for="Singing">Singing <input type="checkbox" id="Singing" name="hobbies"></label>
+   
+       
+       <label for="Dancing">Dancing <input type="checkbox" id="Dancing" name="hobbies"></label>
+       <label for="Sketching">Sketching <input type="checkbox" id="Sketching" name="hobbies"></label>
+       <br>
+       <label for="Other">Other <input type="checkbox" id="Other" name="hobbies"></label>
+   <input type="text">
+   
+    </td>
+</tr>
+<tr>
+    <td>QUALIFICATION</td>
+    <td><div class="subtable"><table>
+        <tr>
+            <td>SI.No.</td>
+            <td>Examination</td>
+    <td>Board</td>
+    <td>Percentage</td>
+    <td>Year Of Passing</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Class X</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Class XII</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr> <td></td>
+            <td>Graduation</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td></tr>
+        <tr></tr>
+        <tr> <td>4</td>
+            <td>Masters</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td></tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>(10 chor max)</td>
+                <td>(upto 2 decimal)</td>
+                <td></td>
+            </tr>
+    </table></div></td>
+</tr>
+
+            <tr>
+                <td> COURSES <br>APPLIED FOR</td>
+         <td> 
+            <label for="BCA">
+              BCA <input type="radio" name="Professional" id="BCA">
+                   </label>
+            <label for="B.Com">
+                B.Com   <input type="radio" name="Professional" id="B.Com">
+                   </label>
+                <label for="B.Sc">
+                 B.Sc <input type="radio" name="Professional" id="B.Sc">
+                  </label>
+                  <label for="B.A">
+                 B.A   <input type="radio" name="Professional" id="B.A">
+                    </label>
+                   
+</td>
+</tr>
+</table>
+
+<center><button>Submit</button> &nbsp;&nbsp;<button>Reset</button></center>    
+<br>
+<br>
+</div>
+</body>
+</html>
